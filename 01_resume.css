@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Marck+Script&family=Roboto&display=swap');
+
+
+
+
+body {
+    background: #0f141e;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'IBM Plex Serif', sans-serif;
+    font-weight: normal;
+}
+
+
+.box {
+    margin-bottom: 20px;
+    display: flex;
+}
+.avatar {
+    width: 200px; 
+    border-radius: 20px; 
+    box-shadow: 4px 4px 14px rgba(255, 255, 255, 0.25);
+    display: block;
+}
+
+
+.info-text p {
+    margin-bottom: 20px;
+    margin: 0px;
+  font-style: italic;
+  font-weight: 300;
+  opacity: 0.8;
+  
+}
+
+.info-text {
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
+
+
+.card {
+    border: 2px;
+    padding: 15px 20px; 
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    
+    background: rgb(3, 5, 19);
+    color:  white;
+}
+
+.info1 {
+
+    margin: auto;
+    background: rgb(66, 66, 66);
+    max-width:  300px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    
+}
+
+.info1 p {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: auto;
+}
+
+.social {
+    text-align: center;
+    margin: auto;
+}
+.youtube {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.info2 {
+    max-width: 750px;
+    margin: auto;
+    background: rgb(207, 207, 207);
+    color:#000000;
+}
+
+.vk {
+    border: 2px solid #0071f2;
+    background: #0071f2;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.telegram {
+    border: 2px solid #2fa6de;
+    background: #2fa6de;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.youtube {
+    border: 2px solid #f20000;
+    background: #f20000;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+    }
+
+a:hover {
+font-size: 1.1rem;
+transition: all .2s;
+}
+a:visited {
+    color: white;
+}
+
+a:active {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.forma {
+    padding-bottom: 20px; 
+    
+}
+
+.forma h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    color:#cccccc;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: rgb(255, 255, 255);
+    padding: 15px 0 10px;
+    outline: none;
+}
+
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right:20px;
+    /* width: calc(50% - 20px); */
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background: #000000;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Marck Script', sans-serif;
+    font-size: 110%;
+    
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transition: all .2s;
+    box-sizing: border-box;
+
+}
+
+.info2 p h2 {
+    text-align: center;
+}
+
+.opit {
+    text-align: left;
+}
+
+.list {
+    list-style: none;
+    padding: 0
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table thead {
+color: #4e4e4e;
+}
+
+@media (max-width: 650px) {
+    .box {
+        display: inline-block;
+    }
+    .info-text {
+        display: block;
+    text-align: center;
+    }
+    .avatar {
+        display: block;
+        margin: auto;
+    }
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+    @media (max-width: 311px) {
+  
+        .vk {
+          display: block;
+          margin: 10px;
+        }
+        .youtube {
+          display: block;
+          margin: 10px;
+        }
+        .telegram {
+          display: block;
+          margin: 10px;
+        }
+      }
+
+      @media (max-width: 287px) {
+        .list li {
+            border: #ccc;
+            border-bottom: 1px solid white;
+        }
+    }
+    
+    
+        

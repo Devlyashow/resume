@@ -7,36 +7,41 @@
     <meta name="keywoards" content="Html, первый раз, жесть">
     <meta name="discription" content="Это мой первый html и он полное говно">
    <title>Proba pera</title>
+   <link rel="stylesheet" href="01_resume.css">
 </head>
 <body>
-    <img src="https://sun9-22.userapi.com/impg/p5otiGTa1MLBXk1ZE27-clcyHWZ18145uNPR5Q/h9i8RMk0vXU.jpg?size=1920x1920&quality=95&sign=07e89abab3fc70735dc2e409b8a6ad0b&type=album" width="200" alt="Здесь аватарка">
-    <h1> Сергей Девляшов</h1>
-    <p>Работаю тренером по <strong>скалолазанию и воркауту</strong></p>
 
-        <p>Недавно начал изучать програмирование и это резюме я создал  <strong><em>с помощью своего первого html файла</em></strong></p>
-        <br>
-        <p> <h2>Мои хобби</h2>
+
+<div class="container">
+    <div class="box">
+        <div>
+        <img src="https://sun9-22.userapi.com/impg/p5otiGTa1MLBXk1ZE27-clcyHWZ18145uNPR5Q/h9i8RMk0vXU.jpg?size=1920x1920&quality=95&sign=07e89abab3fc70735dc2e409b8a6ad0b&type=album" class="avatar" alt="Здесь лежит картинка">
+        </div>
+        <div class="info-text">
+            <h1> Сергей Девляшов</h1>
+            <p>Работаю тренером по скалолазанию и воркауту.</p>
+
+            <p>Недавно начал изучать програмирование и это резюме я создал  с помощью своего первого html и css файла.</p>
+        </div>
+    </div>
+    <div class="card info">
+        <p class="glava"> <h2 style="text-align: center;">Мои хобби</h2>
         </p>
-        <ul>
+        <ul class="list">
             <li>Видеомонтаж</li>
             <li>Экстремальные виды спорта</li>
             <li>Катание на мотоцикле</li>
             <li>Игра на гитаре</li>
             <li>Компьютерные игры</li>
         </ul>
-        <br>
-        <strong>Список моих социальных сетей</strong>
-        <p> <a href="https://vk.com/akro_o" target="_blank">VK</a>
-            <br>
-            <a href="https://www.youtube.com/channel/UCDijF7HDo9ZtIc291vqBwhw" target="_blank">Youtube</a>
-            <br>
-            <a href="https://t.me/Devlyashov" target="_blank">Telegram</a>
-
+    </div>
+    
         </p>
-        <p><h2>Опыт работы</h2></p>
-        <table>
+    <div class="card info2">
+        <p><h2 style="text-align: center;">Опыт работы</h2></p>
+        <table class="table">
             <thead>
-                <tr>
+                <tr class="opit">
                     <th>Название компании</th>
                     <th>Должность</th>
                     <th>Год</th>
@@ -64,33 +69,52 @@
                 <td>2020-2021</td>
             </tr>
             <tr>
-                <td>Склодром "Boulder zal"</td>
+                <td>Скалодром "Boulder zal"</td>
                 <td>Тренер по скалолазанию</td>
                 <td>2021-по сегодняшний день</td>
             </tr>
         </tbody>
         </table>
+    </div>
         <br>
+        <div class="forma">
         <h2>Связаться со мной</h2>
         <form>
-            <div>
-            <label for="name">Ваше имя:</label>
-            <input type="name" placeholder="Введите ваше имя" >
-            </div>
-
-            <div>
-                <label for="emale">Ваш email:</label>
-                <input type="email" placeholder="Введите email" >
+            <div class="form-row">
+                <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="name" placeholder="Введите ваше имя" >
                 </div>
 
-                <div>
+                <div class="form-group">
+                    <label for="emale">Ваш email:</label>
+                    <input type="email" placeholder="Введите email" >
+                </div>
+            </div>
+
+                <div class="form-group">
                     <label for="message">Ваше сообщение:</label>
-                    <br>
                     <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
                     </div>
                     <div>
-                    <br>
-                    <button type="submit">Отправить!</button>
+                    <button class="btn" type="submit">Отправить!</button>
+                </div>
         </form>
+        </div>
+</div>
+
+        <div class="info1">
+            <p>Список моих социальных сетей</p>
+            
+            <div class="social">
+                <a href="https://vk.com/akro_o" target="_blank" class="vk" style="background-color: #0071f2;" style="color: white";> VK</a>
+    
+                <a href="https://www.youtube.com/channel/UCDijF7HDo9ZtIc291vqBwhw" target="_blank" class="youtube" style="background-color: #f20000;">Youtube</a>
+    
+                <a href="https://t.me/Devlyashov" target="_blank" class="telegram" style="background-color: #2fa6de;">Telegram</a>
+            </div>
+        </div>
+
+</div>
 </body>
 </html>
